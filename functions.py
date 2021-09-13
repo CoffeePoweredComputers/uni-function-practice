@@ -48,7 +48,7 @@ def odd_or_even(num1):
 def is_positive(num1):
     '''
     Args:
-        num1 (int) -> An arbitrary non negative integer
+        num1 (int) -> An arbitrary non zero integer
 
     Returns: This function returns the string literal "Odd" if num1 is "Odd"
     and even otherwise.
@@ -73,7 +73,12 @@ def get_initials(first_name, middle_name, last_name):
         first_name (str), middle_name (str), last_name (str) 
 
     Returns: This function takes three string values as parameter and returns
-    the persons initials with each value separated by a period.
+    the persons initials. If any of the strings are empty strings (i.e., len of 0)
+    those names are skipped in creating the initials. 
+
+    Example:
+    get_initials("David", "Hamilton", "Smith")  -> "DHS"
+    get_initials("David", "", "Smith") -> "DS"
     '''
     pass
 
@@ -84,6 +89,6 @@ def convert_k_to_f(kelvin_temp):
         kelvin_temp (float) -> An arbitrary float or int
 
     Returns: If parameter is non negative value it converts and returns the
-    value in Fahrenheit
+    value in Fahrenheit. Otherwise it returns None. 
     '''
     pass
