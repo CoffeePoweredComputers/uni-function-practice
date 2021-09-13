@@ -1,8 +1,9 @@
 def concat(val1, val2):
     '''
     Args:
-        val1 -> 
-        val2 -> 
+        val1 -> Some arbitrary file 
+        val2 -> Some arbitrary file
+
     Returns: If both values are strings it returns the concatenation of those
     strings. Otherwise, it returns the string literal "Invalid Operation".
 
@@ -69,9 +70,7 @@ def safe_divide(num1, num2):
 def get_initials(first_name, middle_name, last_name):
     '''
     Args:
-        first_name (str) -> 
-        middle_name (str) -> 
-        last_name (str) -> 
+        first_name (str), middle_name (str), last_name (str) 
 
     Returns: This function takes three string values as parameter and returns
     the persons initials with each value separated by a period.
