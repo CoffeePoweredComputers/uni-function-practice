@@ -60,3 +60,12 @@ For each of the functions you will be expected to do the following:
 * git add <filename>: To add a file's changes to the staging area.
 * git commit -m "a message here": To create a commit with the contents of the staging area.
 * git push: To push the local commits to remote (GitHub repo).
+
+## Grading Rubric
+For each question I will consider the following items when grading:
+* 2 pts - Function body had been replaced with some code that constitutes a good faith attempt on the problem.
+* 2 pts - Function has two test cases associated with it that constitutes a good faith attempt to test the problem.
+* 2 pts - Function correctly performs it's task as defined by the description in it's docstring.
+* 2 pts - Function's associated test cases are correctly implemented.
+* 1 pt  - Function's test cases have good coverage of the possiable inputs as they are defined in the docstring.
+* 1 pt  - Each function's test cases has a print statement after them indicating that, if it reached that point in the code, that the test cases have been passed.
